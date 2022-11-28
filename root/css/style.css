@@ -1,0 +1,483 @@
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    margin: 0;
+}
+
+/*ESTILOS DEL HEADER*/
+
+.header-mobile {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25vw;
+    margin-bottom: 12vh;
+}
+
+.fa-bars {
+    font-size: 29px;
+    margin-right: 7vw;
+}
+
+.header-desktop {
+    display: none;
+}
+
+/*ESTILOS HERO SECTION*/
+
+section,
+.hero-section {
+    padding: 2vw;
+}
+
+.hero-section img {
+    height: 300px;
+    margin-bottom: 14vh;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    padding-left: 7vh;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #232C50;
+    text-align: right;
+    margin-bottom: 5vh;
+}
+
+.align {
+    text-align: right;
+    font-weight: 500;
+    margin-left: 5vw;
+}
+
+button {
+    background-color: #8b48bf;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    border-radius: 5vw;
+    padding: 13px 28px;
+}
+
+.contact {
+    margin-top: 4vh;
+    margin-left: 69vw;
+    margin-bottom: 5vh;
+}
+
+/*ESTILO DE LA SECCION  DESCRIPCION*/
+
+.description,
+.container_2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #3cddf3;
+    color: white;
+    padding-top: 4vh;
+    margin-bottom: 5vh;
+    padding-left: 2.5vw;
+}
+
+.container_2 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 5vh;
+}
+
+.container_2 p {
+    font-size: 16px;
+    margin-right: 12vw;
+    text-align: left;
+    line-height: 30px;
+}
+
+.text-desktop {
+    display: none;
+}
+
+/*ESTILOS DE LA SECCION DE CARDS DE TEXTO*/
+.text-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+
+.order {
+    display: flex;
+
+}
+
+.buttontext {
+    background-color: rgba(139, 72, 191, 0.3);
+    color: rgba(50, 56, 81, 1);
+    position: absolute;
+    z-index: -1;
+    padding-left: 11vw;
+    margin-left: 6vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 73vw;
+
+}
+
+.secondary {
+    color: rgba(179, 178, 183, 1);
+    padding: 5vh 2vw 5vh;
+}
+
+/*ESTILOS DEL SUBTITULO*/
+
+.subtitle {
+    color: rgba(36, 46, 83, 1);
+    font-size: 39.21px;
+    text-align: center;
+}
+
+/*ESTILOS DE LA SECCION DE CARDS DE IMAGENES*/
+.cardDNone {
+    display: none;
+}
+
+.card {
+    width: 95%;
+    height: 168px;
+    background-color: #fafafa;
+    position: relative;
+    margin: 10vh 2vw 10vh 2vw;
+    text-align: center;
+    line-height: 25px;
+    padding: 10vh 0 0 0;
+
+}
+
+.title {
+    color: rgba(36, 72, 104, 1);
+}
+
+.picture {
+    position: absolute;
+    z-index: 50;
+    top: -4vh;
+    left: 195px;
+}
+
+.buttonMore {
+    margin-left: 180px;
+    padding: 13px 45px;
+    margin-bottom: 5vh;
+}
+
+/*ESTILOS DE LA SECCION TEAM*/
+.teams {
+    padding: 0;
+}
+
+.container-team {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(60, 221, 243, 1);
+    color: white;
+    padding: 4vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-team h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.buttonGo {
+    background-color: #232C50;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    margin-left: 2vw;
+
+}
+
+/*ESTILOS DEL FOOTER*/
+footer {
+    background-color: rgba(30, 30, 38, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    padding: 7vh;
+}
+
+input {
+    border-radius: 5vw;
+    padding: 10px 66px;
+    padding-left: 9px;
+    font-size: 14px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-menu,
+a {
+    color: white;
+    padding: 10px;
+    line-height: 35px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.footer-logo {
+    width: 120px;
+    margin: 4vh;
+    padding-left: 28vw;
+
+}
+
+.copyright {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/*MEDIA QUERIES*/
+/*MEDIA QUERIES DESKTOP*/
+@media screen and (min-width: 1440px) {
+
+    /*ESTILOS DEL HEADER*/
+    .header-mobile {
+        display: none;
+    }
+
+    header {
+        height: 20vh;
+        align-items: center;
+        padding-top: 10vh;
+    }
+
+    .header-desktop {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .color {
+        color: rgba(36, 46, 82, 1);
+    }
+
+    .contact-desktop {
+        padding: 0, 10px;
+        height: 40px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    /*ESTILOS HERO SECTION*/
+    .hero-section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .hero-text {
+        width: 32%;
+
+    }
+
+    .contact {
+        margin-top: 4vh;
+        margin-left: 22vw;
+        margin-bottom: 5vh;
+    }
+
+    .hero-section img {
+        height: 425px;
+        margin-bottom: 0vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*ESTILOS SECCION DESCRIPCION*/
+    .description,
+    .container_2 {
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(139, 72, 191, 1);
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 4vh;
+        padding-left: 5vw;
+        gap: 5vw;
+        margin-right: 3vw;
+        width: 93%;
+        margin-bottom: 0;
+    }
+
+    .text-mobile {
+        display: none;
+    }
+
+    .container_2 h2 {
+        font-size: 36px;
+        font-weight: 700;
+        width: 39vw;
+    }
+
+    .container_2 p {
+        margin-right: 5vw;
+        padding-bottom: 5vh;
+    }
+
+    .text-desktop {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    /*ESTILOS DE LA SECCION CARDS DE TEXTO*/
+    .info-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 5vw;
+        flex-wrap: wrap;
+        background-color: #fafafa;
+        margin: 0;
+    }
+
+    .text-card {
+        padding-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        width: 40%
+    }
+
+    .buttontext {
+        display: none;
+    }
+
+    .buttondesk {
+        background-color: #fafafa;
+        color: rgba(50, 56, 81, 1);
+        position: absolute;
+        z-index: 1;
+        padding-left: 2vw;
+        margin-left: 6vw;
+        display: flex;
+        align-items: center;
+        width: 25vw;
+    }
+
+    .order {
+        display: flex;
+    }
+
+    .secondary {
+        color: rgba(179, 178, 183, 1);
+        padding: 5vh 2vw 5vh;
+    }
+
+    /*ESTILOS DEL SUBTITULO*/
+    .subtitle {
+        margin-top: 10vh;
+        color: rgba(36, 46, 83, 1);
+        font-size: 39.21px;
+        text-align: center;
+    }
+
+    /*ESTILOS DE LAS CARDS IMAGENES*/
+    .card .cardDNone {
+        display: none;
+    }
+
+    .card-tenis-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .carddesk {
+        display: inline-block;
+        width: 33.5%;
+        height: 210px;
+        background-color: #fafafa;
+        position: relative;
+        margin: 10vh 0;
+        line-height: 27px;
+
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        color: rgba(36, 72, 104, 1);
+        text-align: center;
+        height: 10px;
+        justify-content: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .picture {
+        position: absolute;
+        z-index: 50;
+        top: -4vh;
+        left: 14vw;
+    }
+
+    .buttonMore {
+        margin-left: 45vw;
+        padding: 13px 45px;
+        margin-bottom: 5vh;
+    }
+
+    /*ESTILOS DE LA SECCION TEAM*/
+    .container-team {
+        display: none;
+    }
+
+    .container-team-desk {
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(139, 72, 191, 1);
+        color: white;
+        padding: 4vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .container-team-desk h2 {
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 5vh;
+        width: 45%
+    }
+
+    .buttonGo {
+        display: none;
+    }
+
+    .buttonGo-desk {
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(139, 72, 191, 1);
+        margin-left: 2vw;
+    }
+
+    /*ESTILOS DEL FOOTER*/
+}
